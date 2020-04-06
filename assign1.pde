@@ -41,11 +41,11 @@ void setup() {
   image(hog,280,80);
   
   // decide soidier's y position & speed
-  soldierY = floor(random(2,5)) * 80;
+  soldierY = floor(random(2,6)) * 80;
   soldierSpeed = 4;
   
   // decide robot's position
-  robotY = floor(random(2,5)) * 80;
+  robotY = floor(random(2,6)) * 80;
   robotX = floor(random(135,560));
   
   // set laser's position & speed
